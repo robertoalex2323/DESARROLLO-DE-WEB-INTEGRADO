@@ -19,9 +19,14 @@ public class ProductoRepository {
     // Datos iniciales - Menú del Chifa Xin Yan
     public ProductoRepository() {
         // Chaufa
-        guardar(new Producto(null, "Arroz Chaufa", "ARROZ", 28.50, 100, "https://picsum.photos/id/108/200/150"));
-        guardar(new Producto(null, "Arroz Chaufa Especial", "ARROZ", 35.00, 80, "https://picsum.photos/id/109/200/150"));
-        guardar(new Producto(null, "Arroz Chaufa de Mariscos", "ARROZ", 38.00, 60, "https://picsum.photos/id/110/200/150"));
+        guardar(new Producto(null, "Arroz Chaufa con pollo", "CHAUFA", 28.50, 100, "/Productos/Chaufas/chaufa-con-pollo.png"));
+        guardar(new Producto(null, "Arroz Chaufa", "CHAUFA", 35.00, 80, "/Productos/Chaufas/arroz-chaufa.png"));
+        guardar(new Producto(null, "Arroz chaufa con pato asado", "CHAUFA", 38.00, 60, "/Productos/Chaufas/arroz-chaufa-con-pato-asado.png"));
+        
+        // Menú
+        guardar(new Producto(null, "Chaufa de pollo + Wantan Frito", "MENÚ", 22.00, 120, "/Productos/Menu/Chaufa de pollo + wantan frito.png"));
+        guardar(new Producto(null, "Tallarin con Langostinos", "MENÚ", 31.00, 80, "/Productos/Menu/Tallarin con Langostinos.png"));
+        guardar(new Producto(null, "Chaufa de Cerdo Asado + Wantán Frito", "MENÚ", 22.00, 60, "/Productos/Menu/Tallarin con Langostinos.png"));
         
         // Guarniciones 
         guardar(new Producto(null, "Lomo Saltado", "SALTEADO", 32.00, 90, "https://picsum.photos/id/111/200/150"));
