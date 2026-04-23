@@ -18,12 +18,12 @@ public class ProductoRepository {
 
     // Datos iniciales - Menú del Chifa Xin Yan
     public ProductoRepository() {
-        // Arroces
+        // Chaufa
         guardar(new Producto(null, "Arroz Chaufa", "ARROZ", 28.50, 100, "https://picsum.photos/id/108/200/150"));
         guardar(new Producto(null, "Arroz Chaufa Especial", "ARROZ", 35.00, 80, "https://picsum.photos/id/109/200/150"));
         guardar(new Producto(null, "Arroz Chaufa de Mariscos", "ARROZ", 38.00, 60, "https://picsum.photos/id/110/200/150"));
         
-        // Saltados
+        // Guarniciones 
         guardar(new Producto(null, "Lomo Saltado", "SALTEADO", 32.00, 90, "https://picsum.photos/id/111/200/150"));
         guardar(new Producto(null, "Pollo Saltado", "SALTEADO", 28.00, 95, "https://picsum.photos/id/112/200/150"));
         guardar(new Producto(null, "Chancho Saltado", "SALTEADO", 30.00, 70, "https://picsum.photos/id/113/200/150"));
@@ -33,7 +33,7 @@ public class ProductoRepository {
         guardar(new Producto(null, "Sopa Wantán", "SOPA", 22.00, 85, "https://picsum.photos/id/115/200/150"));
         guardar(new Producto(null, "Chupe de Camarones", "SOPA", 35.00, 50, "https://picsum.photos/id/116/200/150"));
         
-        // Entradas
+        // Platos Especiales
         guardar(new Producto(null, "Rollos Primavera", "ENTRADA", 15.00, 150, "https://picsum.photos/id/117/200/150"));
         guardar(new Producto(null, "Wantán Frito", "ENTRADA", 12.00, 160, "https://picsum.photos/id/118/200/150"));
         guardar(new Producto(null, "Siu Mai", "ENTRADA", 14.00, 140, "https://picsum.photos/id/119/200/150"));

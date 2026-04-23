@@ -5,7 +5,7 @@ public class Usuario {
     private String nombre;
     private String email;
     private String password;
-    private String rol; // "MOZO", "COCINA", "ADMIN"
+    private String rol; 
     
     public Usuario() {}
     

@@ -1,11 +1,13 @@
 package apf1.ChifaXinYan.Repository;
 
-import apf1.ChifaXinYan.Model.Usuario;
-import org.springframework.stereotype.Repository;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicLong;
+
+import org.springframework.stereotype.Repository;
+
+import apf1.ChifaXinYan.Model.Usuario;
 
 @Repository
 public class UsuarioRepository {
@@ -17,7 +19,7 @@ public class UsuarioRepository {
         guardar(new Usuario(null, "Josue Chavez", "Josue.mozo@salonxinyan.com", "Josue_mozo", "MOZO"));
         guardar(new Usuario(null, "Elsa Ramirez", "Elsa.cocina@salonxinyan.com", "elsa_cocina", "COCINA"));
         guardar(new Usuario(null, "Admin Xin Yan", "admin@salonxinyan.com", "Admin_xin_yan", "ADMIN"));
-        guardar(new Usuario(null, "Gael Vasquez", "pedro.mozo@salonxinyan.com", "pedro_mozo", "MOZO"));
+        guardar(new Usuario(null, "Gael Vasquez", "Gael.cajero@salonxinyan.com", "gael_cajero", "CAJERO"));
         guardar(new Usuario(null, "Andrea Arrunategui", "andrea.cocina@salonxinyan.com", "andrea_cocina", "COCINA"));
     }
 
